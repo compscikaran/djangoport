@@ -1,5 +1,4 @@
-from core.utilities import create_config_file, startup
+from core.utilities import workflow
 
 if __name__ == '__main__':
-    name = create_config_file('/home/karan/Projects/dailypress/', 'dailypress', 4)
-    startup(name)
+    workflow('https://github.com/compscikaran/dailypress', 'dailypress', 1)
